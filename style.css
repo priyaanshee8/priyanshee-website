@@ -77,10 +77,3 @@ section{
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0,0,0,0.2);
  }
-
- #one{
-     animation: newani 3s ease 1s infinite normal;
-     width: 630px;
-    height: 400px;
-
- }
