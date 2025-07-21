@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 2s ease-in-out;
+    
+}
+@keyframes newani{
+    from { font-size:small}
+    to{ font-size: medium;}
+}
+@keyframes newanima{
+    from { font-size:small}
+    to{ font-size: medium;}
+}
+h1{
+    color: brown;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+    
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    color: blueviolet;
+    background-color: #fdfd;
+    padding: 0 2rem;
+}
+main{
+    display: flex;
+    padding: 20px, 40px;
+}
+header{
+    margin-bottom: 10px;
+    background-color: rgb(241, 140, 157);
+    width: 650PX;
+    margin: 2rem auto;
+    
+}
+footer{
+    color:black;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+}
+.intro {
+    max-width: 600px;
+    background: yellow;
+    padding: 20px;
+    border-radius: 20px;
+    color: blue;
+    text-align: center;
+
+}
+div{
+    background-color: antiquewhite;
+    display: inline-block;
+    text-align: center;
+    width: 430px;
+    height: 400px;
+    font-size: 17px;
+    border: 10px solid black;
+    animation: newani 4s ease 0s infinite normal;
+    
+    
+}
+a :hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: 2rem auto;
+}
+ img{
+    height: auto ;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+ }
+
+ #one{
+     animation: newani 3s ease 1s infinite normal;
+     width: 630px;
+    height: 400px;
+
+ }
